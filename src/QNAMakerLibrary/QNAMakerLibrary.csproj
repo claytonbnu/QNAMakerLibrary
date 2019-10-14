@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Clayton Lourenço</Authors>
+    <Company>Ellevo Soluções</Company>
+    <Product>Plataforma Ellevo</Product>
+    <PackageId>QNAMakerLibrary</PackageId>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <OutputType>Library</OutputType>
+    <Copyright>Ellevo Soluções em Tecnologia da Informação LTDA</Copyright>
+    <PackageProjectUrl>https://ellevo.com</PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageTags>qna, qnamaker, maker</PackageTags>
+    <Description>A client library for the Microsoft QnA Maker v4</Description>
+    <Version>1.0.3</Version>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>
